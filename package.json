@@ -1,0 +1,13 @@
+{
+  "name": "web-update-alerts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lordoys/web-update-alerts.git",
+  "author": "Pecherin Maxim",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^6.1.12"
+  }
+}
