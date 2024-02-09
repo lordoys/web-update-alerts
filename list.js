@@ -15,7 +15,7 @@ export default [
         name: 'Angular github',
         url: 'https://github.com/angular/angular/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v17.2.0-rc.0'
+        content: 'v17.2.0-rc.1'
     },
     {
         name: 'Svelte github',
@@ -87,7 +87,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.44'
+        content: 'v14.1.1-canary.45'
     },
     {
         name: 'Express changelog',
