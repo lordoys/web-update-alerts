@@ -2,7 +2,9 @@ import fetch from 'node-fetch'
 import {parse} from 'node-html-parser';
 import list from './list.js';
 
-const start = async ({name, url, selector, content}, index) => {
+let index = 0;
+
+const start = async ({name, url, selector, content}) => {
     const response = await fetch(url);
     const body = await response.text();
 
@@ -11,20 +13,28 @@ const start = async ({name, url, selector, content}, index) => {
     const text = root.querySelector(selector)?.text
 
     if (!text) {
-        console.log('\x1b[31m', `${index}. ${name} - ошибка парсинга!`)
+        console.log('\x1b[31m', `${name} - ошибка парсинга!`)
 
         return
     }
 
     if (content === text) {
-        console.log('\x1b[32m', `${index}. ${name} - ничего нового.`)
+        console.log('\x1b[37m', `${name} - ничего нового.`)
 
         return
     }
 
-    console.log('\x1b[33m', `${index}. ${name} - есть изменения!`)
-    console.log(`Предыдущее значение - ${content}`)
-    console.log(`Новое значение - ${text}`)
+    console.log('\x1b[33m', `| ${name} - есть изменения! \n | Старое значение - ${content} \n | Новое значение  - ${text}`)
 }
 
-list.forEach((item, index) => start(item, index));
+const run = async () => {
+    await start(list[index])
+
+    if (list[index + 1]) {
+        index = index + 1
+
+        await run()
+    }
+}
+
+run().then(() => console.log('\x1b[32m', 'Done ✓'));
