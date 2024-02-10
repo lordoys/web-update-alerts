@@ -21,7 +21,7 @@ export default [
         name: 'Svelte github',
         url: 'https://github.com/sveltejs/svelte/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'svelte@5.0.0-next.51'
+        content: 'svelte@5.0.0-next.52'
     },
     {
         name: 'Solid github',
@@ -87,7 +87,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.45'
+        content: 'v14.1.1-canary.46'
     },
     {
         name: 'Express changelog',
