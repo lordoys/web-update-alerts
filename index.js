@@ -10,7 +10,7 @@ const start = async ({name, url, selector, content}) => {
 
     const root = parse(body);
 
-    const text = root.querySelector(selector)?.text
+    const text = root.querySelector(selector)?.text.trim().replace(/\s{2,}/g, ' ');
 
     if (!text) {
         console.log('\x1b[31m', `${name} - ошибка парсинга!`)

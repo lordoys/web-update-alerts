@@ -101,4 +101,40 @@ export default [
         selector: '.clearfix .Box .Box-body .Link--primary',
         content: '4.18.2'
     },
+    {
+        name: 'TypeScript github',
+        url: 'https://github.com/microsoft/TypeScript/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'TypeScript 5.4 Beta'
+    },
+    {
+        name: 'TypeScript news',
+        url: 'https://devblogs.microsoft.com/typescript/',
+        selector: '.post .entry-title a',
+        content: 'Announcing TypeScript 5.4 Beta'
+    },
+    {
+        name: 'Google chrome releases',
+        url: 'https://chromereleases.googleblog.com/',
+        selector: '.post .publishdate',
+        content: 'Thursday, February 8, 2024'
+    },
+    {
+        name: 'Bun.js github',
+        url: 'https://github.com/oven-sh/bun/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'Bun v1.0.26'
+    },
+    {
+        name: 'Bun.js blog',
+        url: 'https://bun.sh/blog',
+        selector: '.BlogCardContents .text-gray-900',
+        content: 'Bun v1.0.26'
+    },
+    {
+        name: 'Firefox releases',
+        url: 'https://www.mozilla.org/en-US/firefox/releases/',
+        selector: '.c-release-list li',
+        content: '122.0 122.0.1'
+    },
 ]
