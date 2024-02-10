@@ -137,4 +137,70 @@ export default [
         selector: '.c-release-list li',
         content: '122.0 122.0.1'
     },
+    {
+        name: 'HTMX github',
+        url: 'https://github.com/bigskysoftware/htmx/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v1.9.10'
+    },
+    {
+        name: 'Vite github',
+        url: 'https://github.com/vitejs/vite/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v5.1.1'
+    },
+    {
+        name: 'Vite blog',
+        url: 'https://vitejs.dev/blog',
+        selector: '.blog-entry .title a',
+        content: 'Announcing Vite 5.1'
+    },
+    {
+        name: 'Astro blog',
+        url: 'https://astro.build/blog/',
+        selector: '.code.text-astro-gray-200',
+        content: 'February 1, 2024'
+    },
+    {
+        name: 'Nuxt github',
+        url: 'https://github.com/nuxt/nuxt/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v3.10.1'
+    },
+    {
+        name: 'Nuxt blog',
+        url: 'https://nuxt.com/blog',
+        selector: '.flex .grid .text-gray-900',
+        content: 'Nuxt 3.10'
+    },
+    {
+        name: 'Biome github',
+        url: 'https://github.com/biomejs/biome/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'CLI v1.5.3-nightly.6cbf1c7'
+    },
+    {
+        name: 'Biome blog',
+        url: 'https://biomejs.dev/blog/',
+        selector: '.blog h2 a',
+        content: 'Biome v1.5'
+    },
+    {
+        name: 'Qwik github',
+        url: 'https://github.com/BuilderIO/qwik/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v1.4.4'
+    },
+    {
+        name: 'Qwik blog',
+        url: 'https://www.builder.io/blog',
+        selector: '.css-1kve7vp .css-rfu6vm .css-o4l6sf',
+        content: 'Towards Qwik 2.0: Lighter, Faster, Better'
+    },
+    {
+        name: 'Qwik blog latest',
+        url: 'https://www.builder.io/blog',
+        selector: '.css-1kve7vp .css-enxx6z',
+        content: 'Export Figma to Tailwind CSS with Visual Copilot'
+    },
 ]
