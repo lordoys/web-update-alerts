@@ -35,6 +35,7 @@ const run = async () => {
 
         await run()
     }
+
 }
 
 run().then(() => console.log('\x1b[32m', 'Done ✓'));
