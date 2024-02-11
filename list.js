@@ -87,7 +87,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.46'
+        content: 'v14.1.1-canary.47'
     },
     {
         name: 'Express changelog',
