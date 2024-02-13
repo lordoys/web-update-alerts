@@ -177,7 +177,7 @@ export default [
         name: 'Biome github',
         url: 'https://github.com/biomejs/biome/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'CLI v1.5.3-nightly.d2858ee'
+        content: 'CLI v1.5.3-nightly.dca6a7a'
     },
     {
         name: 'Biome blog',
