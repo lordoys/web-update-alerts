@@ -209,4 +209,10 @@ export default [
         selector: '.blog-posts .card  .card__title a',
         content: 'ESLint v9.0.0-beta.0 released'
     },
+    {
+        name: 'ESLint github',
+        url: 'https://github.com/eslint/eslint/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v9.0.0-beta.0'
+    },
 ]
