@@ -3,7 +3,7 @@ export default [
         name: 'Vue github',
         url: 'https://github.com/vuejs/core/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v3.4.18',
+        content: 'v3.4.19',
     },
     {
         name: 'React github',
