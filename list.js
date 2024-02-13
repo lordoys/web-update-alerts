@@ -87,7 +87,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.46'
+        content: 'v14.1.1-canary.51'
     },
     {
         name: 'Express changelog',
@@ -177,7 +177,7 @@ export default [
         name: 'Biome github',
         url: 'https://github.com/biomejs/biome/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'CLI v1.5.3-nightly.6cbf1c7'
+        content: 'CLI v1.5.3-nightly.d2858ee'
     },
     {
         name: 'Biome blog',
@@ -202,5 +202,11 @@ export default [
         url: 'https://www.builder.io/blog',
         selector: '.css-1kve7vp .css-enxx6z',
         content: 'Export Figma to Tailwind CSS with Visual Copilot'
+    },
+    {
+        name: 'ESLint blog',
+        url: 'https://eslint.org/blog/',
+        selector: '.blog-posts .card  .card__title a',
+        content: 'ESLint v9.0.0-beta.0 released'
     },
 ]
