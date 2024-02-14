@@ -21,7 +21,7 @@ export default [
         name: 'Svelte github',
         url: 'https://github.com/sveltejs/svelte/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'svelte@5.0.0-next.52'
+        content: 'svelte@5.0.0-next.54'
     },
     {
         name: 'Solid github',
@@ -87,7 +87,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.51'
+        content: 'v14.1.1-canary.52'
     },
     {
         name: 'Express changelog',
@@ -214,5 +214,11 @@ export default [
         url: 'https://github.com/eslint/eslint/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
         content: 'v9.0.0-beta.0'
+    },
+    {
+        name: 'Panda github',
+        url: 'https://github.com/chakra-ui/panda/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: '@pandacss/types@0.31.0'
     },
 ]
