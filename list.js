@@ -15,7 +15,13 @@ export default [
         name: 'Angular github',
         url: 'https://github.com/angular/angular/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v17.2.0-rc.1'
+        content: 'v17.2.1'
+    },
+    {
+        name: 'Angular blog',
+        url: 'https://blog.angular.io/',
+        selector: '.row h3 div',
+        content: 'Angular v17.2 is now available'
     },
     {
         name: 'Svelte github',
