@@ -27,7 +27,7 @@ export default [
         name: 'Svelte github',
         url: 'https://github.com/sveltejs/svelte/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'svelte@5.0.0-next.54'
+        content: 'svelte@4.2.11'
     },
     {
         name: 'Solid github',
@@ -51,13 +51,19 @@ export default [
         name: 'Node LTS',
         url: 'https://nodejs.org/en/download/',
         selector: '.color-lightgray strong',
-        content: '20.11.0'
+        content: '20.11.1'
+    },
+    {
+        name: 'Node blog',
+        url: 'https://nodejs.org/en/blog/release',
+        selector: '.blog-index a',
+        content: 'Node v21.6.2 (Current)'
     },
     {
         name: 'Node Current',
         url: 'https://nodejs.org/en/download/current',
         selector: '.color-lightgray strong',
-        content: '21.6.1'
+        content: '21.6.2'
     },
     {
         name: 'NPM github',
@@ -93,7 +99,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.52'
+        content: 'v14.1.1-canary.56'
     },
     {
         name: 'Express changelog',
@@ -123,7 +129,7 @@ export default [
         name: 'Google chrome releases',
         url: 'https://chromereleases.googleblog.com/',
         selector: '.post .publishdate',
-        content: 'Thursday, February 8, 2024'
+        content: 'Thursday, February 15, 2024'
     },
     {
         name: 'Bun.js github',
@@ -153,7 +159,7 @@ export default [
         name: 'Vite github',
         url: 'https://github.com/vitejs/vite/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v5.1.1'
+        content: 'v5.1.3'
     },
     {
         name: 'Vite blog',
@@ -165,13 +171,13 @@ export default [
         name: 'Astro blog',
         url: 'https://astro.build/blog/',
         selector: '.code.text-astro-gray-200',
-        content: 'February 1, 2024'
+        content: 'February 15, 2024'
     },
     {
         name: 'Nuxt github',
         url: 'https://github.com/nuxt/nuxt/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v3.10.1'
+        content: 'v3.10.2'
     },
     {
         name: 'Nuxt blog',
