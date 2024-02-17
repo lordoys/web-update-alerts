@@ -129,19 +129,19 @@ export default [
         name: 'Google chrome releases',
         url: 'https://chromereleases.googleblog.com/',
         selector: '.post .publishdate',
-        content: 'Thursday, February 15, 2024'
+        content: 'Friday, February 16, 2024'
     },
     {
         name: 'Bun.js github',
         url: 'https://github.com/oven-sh/bun/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'Bun v1.0.26'
+        content: 'Bun v1.0.27'
     },
     {
         name: 'Bun.js blog',
         url: 'https://bun.sh/blog',
         selector: '.BlogCardContents .text-gray-900',
-        content: 'Bun v1.0.26'
+        content: 'Bun v1.0.27'
     },
     {
         name: 'Firefox releases',
@@ -201,7 +201,7 @@ export default [
         name: 'Qwik github',
         url: 'https://github.com/BuilderIO/qwik/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v1.4.4'
+        content: 'v1.4.5'
     },
     {
         name: 'Qwik blog',
