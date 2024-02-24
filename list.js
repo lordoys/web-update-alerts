@@ -245,4 +245,10 @@ export default [
         selector: '.clearfix .Box .Box-body .Link--primary',
         content: 'v0.17.2'
     },
+    {
+        name: 'vitest github',
+        url: 'https://github.com/vitest-dev/vitest/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v1.3.1'
+    },
 ]
