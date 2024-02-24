@@ -15,19 +15,19 @@ export default [
         name: 'Angular github',
         url: 'https://github.com/angular/angular/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v17.2.1'
+        content: 'v17.3.0-next.0'
     },
     {
         name: 'Angular blog',
         url: 'https://blog.angular.io/',
         selector: '.row h3 div',
-        content: 'Angular v17.2 is now available'
+        content: 'Signal inputs available in developer preview'
     },
     {
         name: 'Svelte github',
         url: 'https://github.com/sveltejs/svelte/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'svelte@4.2.11'
+        content: 'svelte@4.2.12'
     },
     {
         name: 'Solid github',
@@ -75,7 +75,7 @@ export default [
         name: 'Ember github',
         url: 'https://github.com/emberjs/ember.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v5.7.0-beta.1'
+        content: 'v5.7.0-beta.2'
     },
     {
         name: 'Meteor changelog',
@@ -99,7 +99,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.58'
+        content: 'v14.1.1-canary.71'
     },
     {
         name: 'Express changelog',
@@ -117,37 +117,37 @@ export default [
         name: 'TypeScript github',
         url: 'https://github.com/microsoft/TypeScript/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'TypeScript 5.4 Beta'
+        content: 'TypeScript 5.4 RC'
     },
     {
         name: 'TypeScript news',
         url: 'https://devblogs.microsoft.com/typescript/',
         selector: '.post .entry-title a',
-        content: 'Announcing TypeScript 5.4 Beta'
+        content: 'Announcing TypeScript 5.4 RC'
     },
     {
         name: 'Google chrome releases',
         url: 'https://chromereleases.googleblog.com/',
         selector: '.post .publishdate',
-        content: 'Friday, February 16, 2024'
+        content: 'Friday, February 23, 2024'
     },
     {
         name: 'Bun.js github',
         url: 'https://github.com/oven-sh/bun/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'Bun v1.0.27'
+        content: 'Bun v1.0.29'
     },
     {
         name: 'Bun.js blog',
         url: 'https://bun.sh/blog',
         selector: '.BlogCardContents .text-gray-900',
-        content: 'Bun v1.0.27'
+        content: 'Bun v1.0.29'
     },
     {
         name: 'Firefox releases',
         url: 'https://www.mozilla.org/en-US/firefox/releases/',
         selector: '.c-release-list li',
-        content: '122.0 122.0.1'
+        content: '123.0'
     },
     {
         name: 'HTMX github',
@@ -159,7 +159,7 @@ export default [
         name: 'Vite github',
         url: 'https://github.com/vitejs/vite/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v5.1.3'
+        content: 'v5.1.4'
     },
     {
         name: 'Vite blog',
@@ -177,7 +177,7 @@ export default [
         name: 'Nuxt github',
         url: 'https://github.com/nuxt/nuxt/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v3.10.2'
+        content: 'v3.10.3'
     },
     {
         name: 'Nuxt blog',
@@ -189,7 +189,7 @@ export default [
         name: 'Biome github',
         url: 'https://github.com/biomejs/biome/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'CLI v1.5.3-nightly.dca6a7a'
+        content: 'CLI v1.5.3-nightly.69f9031'
     },
     {
         name: 'Biome blog',
@@ -219,19 +219,19 @@ export default [
         name: 'ESLint blog',
         url: 'https://eslint.org/blog/',
         selector: '.blog-posts .card  .card__title a',
-        content: 'ESLint v9.0.0-beta.0 released'
+        content: 'ESLint v9.0.0-beta.1 released'
     },
     {
         name: 'ESLint github',
         url: 'https://github.com/eslint/eslint/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v9.0.0-beta.0'
+        content: 'v9.0.0-beta.1'
     },
     {
         name: 'Panda github',
         url: 'https://github.com/chakra-ui/panda/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: '@pandacss/types@0.31.0'
+        content: '@pandacss/types@0.32.1'
     },
     {
         name: 'Docker Desktop release notes',
