@@ -239,4 +239,10 @@ export default [
         selector: '.prose h2 a',
         content: '4.27.2'
     },
+    {
+        name: 'wxt github',
+        url: 'https://github.com/wxt-dev/wxt/releases',
+        selector: '.clearfix .Box .Box-body .Link--primary',
+        content: 'v0.17.2'
+    },
 ]
