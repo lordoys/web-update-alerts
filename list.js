@@ -3,7 +3,7 @@ export default [
         name: 'Vue github',
         url: 'https://github.com/vuejs/core/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v3.4.19',
+        content: 'v3.4.20',
     },
     {
         name: 'React github',
@@ -99,7 +99,7 @@ export default [
         name: 'Next github',
         url: 'https://github.com/vercel/next.js/releases',
         selector: '.clearfix .Box .Box-body .Link--primary',
-        content: 'v14.1.1-canary.71'
+        content: 'v14.1.1-canary.74'
     },
     {
         name: 'Express changelog',
@@ -129,7 +129,7 @@ export default [
         name: 'Google chrome releases',
         url: 'https://chromereleases.googleblog.com/',
         selector: '.post .publishdate',
-        content: 'Friday, February 23, 2024'
+        content: 'Tuesday, February 27, 2024'
     },
     {
         name: 'Bun.js github',
@@ -207,13 +207,13 @@ export default [
         name: 'Qwik blog',
         url: 'https://www.builder.io/blog',
         selector: '.css-1kve7vp .css-rfu6vm .css-o4l6sf',
-        content: 'Towards Qwik 2.0: Lighter, Faster, Better'
+        content: 'The definitive guide to building a drag and drop editable blog with Builder'
     },
     {
         name: 'Qwik blog latest',
         url: 'https://www.builder.io/blog',
         selector: '.css-1kve7vp .css-enxx6z',
-        content: 'Export Figma to Tailwind CSS with Visual Copilot'
+        content: 'Towards Qwik 2.0: Lighter, Faster, Better'
     },
     {
         name: 'ESLint blog',
